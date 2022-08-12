@@ -7,7 +7,25 @@
 		<key>ITunesAssignment.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BC91502628A2990700FF1533</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC91503C28A2990B00FF1533</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC91504628A2990B00FF1533</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

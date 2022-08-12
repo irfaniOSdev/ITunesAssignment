@@ -1,0 +1,6 @@
+framework module Pods_ITunesAssignment_ITunesAssignmentUITests {
+  umbrella header "Pods-ITunesAssignment-ITunesAssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

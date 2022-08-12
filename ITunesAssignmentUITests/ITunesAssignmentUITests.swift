@@ -9,6 +9,8 @@ import XCTest
 
 class ITunesAssignmentUITests: XCTestCase {
 
+    let app = XCUIApplication()
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
@@ -28,6 +30,15 @@ class ITunesAssignmentUITests: XCTestCase {
         app.launch()
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testSearchTextFieldActions() {
+        app.activate()
+        let textField = XCUIApplication().textFields["Enter search"]
+        textField.tap()
+        if textField.isSelected {
+            XCTAssertTrue(textField.exists)
+        }
     }
 
     func testLaunchPerformance() throws {
